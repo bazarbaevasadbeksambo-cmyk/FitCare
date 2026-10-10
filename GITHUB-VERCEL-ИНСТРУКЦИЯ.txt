@@ -1,0 +1,10 @@
+FitCare: загрузка на GitHub и Vercel
+
+1. Распакуйте ZIP.
+2. Откройте распакованную папку в VS Code.
+3. Создайте пустой репозиторий GitHub и загрузите СОДЕРЖИМОЕ папки, сохранив подпапки scripts, src, public, api.
+4. В Vercel: Framework = Vite, Root Directory = ./, Build Command = npm run build, Output Directory = dist.
+5. Не загружайте node_modules и реальные .env с секретами.
+6. Для AI функций может потребоваться настройка переменных окружения в Vercel.
+
+Проверка локально: npm ci && npm run build.
